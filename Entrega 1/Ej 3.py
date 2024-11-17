@@ -5,7 +5,7 @@ Números pares en orden descendente: [8, 6, 2]
 Números impares en orden descendente: [7, 5, 3]
 
 
-def separar_ordenar_pares_impares(lista):
+def separar_ordenar_pares_impares(lista):# funcion que separa y ordena pares/impares.
     # ORDENAR LA LISTA EN ORDEN ASCENDENTE
     lista_ordenada = sorted(lista)
     print("Lista ordenada:", lista_ordenada)
