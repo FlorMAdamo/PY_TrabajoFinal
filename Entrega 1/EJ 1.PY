@@ -53,7 +53,7 @@ class Cancion:
             return cancion1 if cancion1.nroLikes > cancion2.nroLikes else   cancion2 
         else: raise ValueError ("Las canciones no son del mismo artista o genero musical")
 
-cancion1=Cancion("La Doctora","LPDA", "Reggae",2,2004,500)
+cancion1=Cancion("La Doctora","LPDA", "Rock",2,2004,500)
 cancion2=Cancion("Peldaño","LPDA", "Rock",4,2002,100)
 
 #se muestra  nombre de la cancion - artista - duracion
